@@ -12,6 +12,9 @@ Install colcon and its extensions :
 ``sudo apt install python3-colcon-common-extensions``
 
 Create a new ros2 workspace:
+
+Dont forget the ``-p`` to create the directory in the second code of line here.
+
 ``mkdir -p ~/ros2_ws/src``
 
 Pull relevant packages, install dependencies, compile, and source the workspace by using:
@@ -28,14 +31,14 @@ Use this line to clean build any missing or uninstalled dependencies to fix erro
 
 ``colcon build --symlink-install``
 
-
-
-
-![image](/Attachments/image1.png)
-
 to update openGL:
 
 ``add-apt-repository ppa:kisak/kisak-mesa``
 
+When launching using this command:
 
-Dont forget the -p to create the directory in the second code of line here.
+``ros2 launch iiwa_bringup iiwa.launch.py``
+
+Screenshot:
+
+![image](/Attachments/image1.png)
