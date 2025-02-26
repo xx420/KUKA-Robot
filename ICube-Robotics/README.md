@@ -12,7 +12,7 @@ Install colcon and its extensions :
 ``sudo apt install python3-colcon-common-extensions``
 
 Create a new ros2 workspace:
-``mkdir ~/ros2_ws/src``
+``mkdir -p ~/ros2_ws/src``
 
 Pull relevant packages, install dependencies, compile, and source the workspace by using:
 
@@ -27,3 +27,5 @@ source install/setup.bash``
 Use this line to clean build any missing or uninstalled dependencies to fix errors
 
 ``colcon build --symlink-install``
+
+Dont forget the -p to create the directory in the second code of line here.
