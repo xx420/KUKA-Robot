@@ -33,5 +33,9 @@ Use this line to clean build any missing or uninstalled dependencies to fix erro
 
 ![image](/Attachments/image1.png)
 
+to update openGL:
+
+``add-apt-repository ppa:kisak/kisak-mesa``
+
 
 Dont forget the -p to create the directory in the second code of line here.
