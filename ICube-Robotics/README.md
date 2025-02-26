@@ -28,4 +28,10 @@ Use this line to clean build any missing or uninstalled dependencies to fix erro
 
 ``colcon build --symlink-install``
 
+
+
+
+![image](/Attachments/image1.png)
+
+
 Dont forget the -p to create the directory in the second code of line here.
